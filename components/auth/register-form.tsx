@@ -105,7 +105,7 @@ export const RegisterForm = () => {
           </Button>
           <Link href={'/login/facebook'} className={cn(buttonVariants({variant:'link'}),'w-full')} >
             <Facebook />
-            Login with FaceBook
+            Login with Facebook
           </Link>
         </form>
       </Form>

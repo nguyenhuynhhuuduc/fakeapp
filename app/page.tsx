@@ -9,13 +9,19 @@ import React from 'react';
 const HomePage = () => {
   return (
     <div style={{ position: 'fixed', top: 0, left: 0, width: '100%', height: '92%', zIndex: -1 }}>
-      <iframe
+      {/* <iframe
         className='w-full h-full'
         src='https://www.youtube.com/embed/EJr3uAQwGek' 
         title=''
         allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
         allowFullScreen
-      ></iframe>
+      ></iframe> */}
+      <div className="absolute inset-0" style={{ width: "100%", height: "100%" }}>
+          <img
+            src="public/images/background.gif"
+            alt="background image"
+          />
+        </div>
       <div style={{ position: 'absolute', top: '60%', left: '40%', transform: 'translate(-50%, -40%)', color: 'white', fontSize: '90px', fontWeight: 'bold', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
         Welcom to BrainStorm GPT
       </div>
